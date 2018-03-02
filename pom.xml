@@ -57,6 +57,7 @@
         <version>3.1.0</version>
         <configuration>
           <transformers>
+            <!--https://issues.apache.org/jira/browse/JENA-1166-->
             <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
           </transformers>
         </configuration>
